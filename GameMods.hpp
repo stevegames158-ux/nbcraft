@@ -24,7 +24,7 @@
 //#define FEATURE_SERVER_INVENTORIES       // Enables server-sided/server-authoritative player inventories.
 
 // TODO: Add to the LevelSettings struct
-//#define FEATURE_CAVES 	               // Generates caves around the world.
+#define FEATURE_CAVES 	               // Generates caves around the world.
 //#define FEATURE_PLANT_VEGGIES 	       // Generates tall grass and dead bushes around the world.
 //#define FEATURE_FANCY_TREES              // Generates larger and more unique trees around the world.
 

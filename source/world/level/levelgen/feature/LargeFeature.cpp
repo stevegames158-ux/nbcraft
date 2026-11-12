@@ -23,7 +23,7 @@ void LargeFeature::apply(ChunkSource* csrc, TileSource& source, int x, int z, ui
 	{
 		for (int az = z - m_radius; az <= z + m_radius; az++)
 		{
-			m_random.setSeed((r1 * ax + r2 * az) & level.getSeed());
+			m_random.setSeed((r1 * ax + r2 * az) ^ level.getSeed());
 			addFeature(source, ax, az, x, z, tiles, unk);
 		}
 	}
